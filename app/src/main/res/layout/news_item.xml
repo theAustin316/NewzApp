@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/relate_height"
+            android:padding="@dimen/relate_padding">
+
+            <TextView
+                android:id="@+id/webTitle"
+                android:layout_width="@dimen/txt_height"
+                android:layout_marginRight="@dimen/txt_mgRight"
+                android:textColor="@color/pink"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/txt_mgLeft"
+                android:textStyle="bold"
+                android:maxLines="3"
+                android:textSize="@dimen/txt_size"
+                tools:text="@string/demo_txt" />
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/Category"
+                android:textColor="@color/pink"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/trailText"
+                android:layout_width="@dimen/txt_height"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/txt_mgLeft"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/blue"
+                android:layout_marginTop="@dimen/margin_List"
+                android:maxLines="3"
+                tools:text="@string/trail"
+                android:layout_below="@id/webTitle"/>
+
+            <TextView
+                android:id="@+id/authorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/Author"
+                android:textColor="@color/pink"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"/>
+
+            <TextView
+                android:id="@+id/date"
+                android:textColor="@color/pink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/date"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/category"/>
+
+        </RelativeLayout>
+</LinearLayout>

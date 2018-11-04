@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_List">12dp</dimen>
+    <dimen name="margin_divider">4dp</dimen>
+    <dimen name="relate_height">160dp</dimen>
+    <dimen name="relate_padding">8dp</dimen>
+    <dimen name="txt_mgLeft">8dp</dimen>
+    <dimen name="txt_height">280dp</dimen>
+    <dimen name="txt_mgRight">24dp</dimen>
+    <dimen name="txt_size">24sp</dimen>
+    <dimen name="text_size">16sp</dimen>
+</resources>
